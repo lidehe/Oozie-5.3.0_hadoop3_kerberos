@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oozie-client" />
+        <module name="oozie-sharelib-spark" />
+        <module name="oozie-fluent-job-client" />
+        <module name="oozie-mini" />
+        <module name="oozie-sharelib-hcatalog" />
+        <module name="oozie-server" />
+        <module name="oozie-distro" />
+        <module name="oozie-examples" />
+        <module name="oozie-zookeeper-security-tests" />
+        <module name="oozie-core" />
+        <module name="oozie-sharelib-distcp" />
+        <module name="oozie-tools" />
+        <module name="oozie-docs" />
+        <module name="oozie-sharelib-oozie" />
+        <module name="oozie-sharelib-hive2" />
+        <module name="oozie-webapp" />
+        <module name="oozie-fluent-job-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oozie-sharelib-git" target="1.8" />
+      <module name="oozie-sharelib-hive" target="1.8" />
+      <module name="oozie-sharelib-pig" target="1.8" />
+      <module name="oozie-sharelib-sqoop" target="1.8" />
+      <module name="oozie-sharelib-streaming" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
