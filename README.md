@@ -61,6 +61,9 @@ Subscribe using the link:
 http://oozie.apache.org/mail-lists.html
 
 ldh
+2024-11-21 18:06:23 修复hive2任务beeline执行失败问题：
+sharelib/hive2/src/main/java/org/apache/oozie/action/hadoop/Hive2Main.java类里删除掉-hiveconf参数
+
 2024-12-20 17:44:13 修复页面显示时间和实际时间不匹配的问题:
 找到oozie-console.js文件，修改function getTimeZone()，从return Ext.state.Manager.get("Timezoneld","GMT");} 改为return Ext.state.Manager.get("Timezoneld","GMT+0800");} 做修改加上0800
 
